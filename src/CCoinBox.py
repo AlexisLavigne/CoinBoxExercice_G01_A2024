@@ -28,6 +28,7 @@ class CCoinBox:
         self.monnaie_courante = 0
         self.vente_permise = False
         print("Réinitialisation")
+    # pourrait comment cette fonction et les tests vont passer (elle n'est pas testée)
 
     def retourne_monnaie(self):
         pieces = self.monnaie_courante
