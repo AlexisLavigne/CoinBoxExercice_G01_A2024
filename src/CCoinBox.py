@@ -42,5 +42,6 @@ class CCoinBox:
     def get_monnaie_courante(self):
         return self.monnaie_courante
 
+    
     def get_vente_permise(self):
         return self.vente_permise
